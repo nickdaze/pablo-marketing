@@ -34,19 +34,7 @@
   </script>
 
   <style>
-    /* Custom styles */
-    .btn {
-      @apply inline-flex items-center justify-center rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50;
-    }
-    .btn-primary {
-      @apply bg-stone-900 text-stone-50 hover:bg-stone-900/90;
-    }
-    .btn-outline {
-      @apply border border-stone-200 bg-white hover:bg-stone-100 hover:text-stone-900;
-    }
-    .btn-lg {
-      @apply h-11 px-8;
-    }
+    /* Custom styles - not needed since we're using utility classes directly */
   </style>
 </head>
 <body class="antialiased bg-white">
@@ -75,7 +63,7 @@
           <a href="https://app.gopablo.net/login" class="text-sm font-medium text-stone-600 hover:text-stone-900">
             Sign in
           </a>
-          <a href="https://app.gopablo.net/signup" class="btn btn-primary btn-lg">
+          <a href="https://app.gopablo.net/signup" class="inline-flex items-center justify-center rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 bg-stone-900 text-stone-50 hover:bg-stone-900/90 h-11 px-8">
             Get started
           </a>
         </div>
@@ -102,14 +90,14 @@
           error-prone spreadsheets.
         </p>
         <div class="flex flex-col items-center justify-center gap-4 sm:flex-row">
-          <a href="https://app.gopablo.net/signup" class="btn btn-primary btn-lg text-base">
+          <a href="https://app.gopablo.net/signup" class="inline-flex items-center justify-center rounded-md text-base font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 bg-stone-900 text-stone-50 hover:bg-stone-900/90 h-11 px-8">
             Get started free
             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="ml-2 h-5 w-5">
               <line x1="5" y1="12" x2="19" y2="12"/>
               <polyline points="12 5 19 12 12 19"/>
             </svg>
           </a>
-          <a href="https://app.gopablo.net/login" class="btn btn-outline btn-lg text-base">
+          <a href="https://app.gopablo.net/login" class="inline-flex items-center justify-center rounded-md text-base font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 border border-stone-200 bg-white hover:bg-stone-100 hover:text-stone-900 h-11 px-8">
             Sign in
           </a>
         </div>
@@ -401,14 +389,14 @@
           required.
         </p>
         <div class="flex flex-col items-center justify-center gap-4 sm:flex-row">
-          <a href="https://app.gopablo.net/signup" class="btn btn-primary btn-lg text-base">
+          <a href="https://app.gopablo.net/signup" class="inline-flex items-center justify-center rounded-md text-base font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 bg-stone-900 text-stone-50 hover:bg-stone-900/90 h-11 px-8">
             Sign up free
             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="ml-2 h-5 w-5">
               <line x1="5" y1="12" x2="19" y2="12"/>
               <polyline points="12 5 19 12 12 19"/>
             </svg>
           </a>
-          <a href="https://app.gopablo.net/login" class="btn btn-outline btn-lg text-base">
+          <a href="https://app.gopablo.net/login" class="inline-flex items-center justify-center rounded-md text-base font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 border border-stone-200 bg-white hover:bg-stone-100 hover:text-stone-900 h-11 px-8">
             Sign in to your account
           </a>
         </div>
